@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'bitfinex'
-  s.version     = '0.1.4'
+  s.version     = '0.1.5'
   s.licenses    = ['GPLv2']
   s.summary     = "Bitfinex.com Bitcoin Exchange API"
   s.description = "v1 API library"
