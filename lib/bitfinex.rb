@@ -369,7 +369,6 @@ class Bitfinex
     unless price
       # no price if market order
       order['type'] = 'market'
-      order[:price] = '1234'
     else
       # raise "price specified but order type set to market"
       order[:price] = price.to_s
